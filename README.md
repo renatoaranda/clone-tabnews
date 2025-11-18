@@ -8,6 +8,8 @@ clone do projeto tabnews.com.br (curso.dev)
     - <code>nvm alias default lts/hydrogen</code>
 - install (using the alias default)
     - <code>nvm install</code>
+- install the packages
+    - <code>npm install #package (npm install next)</code>
     
 > ## Dia 4
 - change the package.json adding in the scripts part the alias dev with 
