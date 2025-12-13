@@ -5,64 +5,28 @@ function Home() {
         display: "flex",
         flexDirection: "column",
         justifyContent: "space-between",
-        alignItems: "center",
-        height: "100vh",
-        background: "linear-gradient(135deg, #3A8DFF 0%, #9C6BFF 100%)",
+        height: "98vh",
+        background: "linear-gradient(135deg, #979898ff 0%, #353536ff 100%)",
         padding: "20px",
         fontFamily: "'Poppins', 'Nunito', sans-serif",
         boxSizing: "border-box",
         overflow: "hidden",
+        textAlign: "left",
       }}
     >
       {/* Conteúdo principal */}
-      <div
+
+      <h1
         style={{
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-          alignItems: "center",
-          flex: 1,
-          textAlign: "center",
-          color: "white",
-          overflow: "auto",
-          width: "100%",
+          fontWeight: "700",
+          marginBottom: "clamp(10px, 3vh, 20px)",
+          color: "#FFD43B",
+          textShadow: "2px 2px 4px rgba(0, 0, 0, 0.2)",
+          margin: "0",
         }}
       >
-        <h1
-          style={{
-            fontSize: "clamp(2rem, 8vw, 3.5rem)",
-            fontWeight: "700",
-            marginBottom: "clamp(10px, 3vh, 20px)",
-            color: "#FFD43B",
-            textShadow: "2px 2px 4px rgba(0, 0, 0, 0.2)",
-            margin: "0",
-          }}
-        >
-          ✨ Em construção
-        </h1>
-        <p
-          style={{
-            fontSize: "clamp(1rem, 4vw, 1.3rem)",
-            fontWeight: "500",
-            maxWidth: "90%",
-            lineHeight: "1.6",
-            color: "white",
-            marginBottom: "clamp(20px, 5vh, 40px)",
-            margin: "0 0 clamp(20px, 5vh, 40px) 0",
-          }}
-        >
-          Em breve você poderá criar / gerenciar as tarefas de seus filhos em um
-          ambiente fácil e divertido...
-        </p>
-        <div
-          style={{
-            fontSize: "clamp(2rem, 10vw, 4rem)",
-            marginTop: "clamp(15px, 3vh, 30px)",
-          }}
-        >
-          🤖
-        </div>
-      </div>
+        👷 em construção
+      </h1>
 
       {/* Rodapé */}
       <footer
